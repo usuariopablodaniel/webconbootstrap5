@@ -1,4 +1,4 @@
-$primary: #e93a00;
+$primary: #ca540b;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -56,5 +56,12 @@ $primary: #e93a00;
         font-size: 40px;
     }
     
+}
+
+label{
+    color: #ca540b;
+}
+h3{
+    text-decoration: underline;
 }
 
