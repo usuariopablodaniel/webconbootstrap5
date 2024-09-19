@@ -1,0 +1,60 @@
+$primary: #e93a00;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.section{
+    padding: 60px 0;
+}
+
+.logo-empresa img{
+    width: 120px;
+    border-radius: 2px;
+}
+.banner{
+        background:url(./img/fondo-anaranjado3.jpg) no-repeat;
+        background-size: cover;
+
+}
+.banner-content > h1{
+    font-size: 90px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+.banner-content > h2{
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+@include media-breakpoint-only(xs){
+    .banner-content > h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+@include media-breakpoint-only(sm){
+    .banner-content > h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .banner-content > h2{
+        font-size: 40px;
+    }
+}
+@include media-breakpoint-only(md){
+    .banner-content > h1{
+        font-size: 90px;
+        line-height: 100px;
+    }
+    
+}
+@include media-breakpoint-only(lg){
+    .banner-content > h1{
+        font-size: 70px;
+        line-height: 85px;
+    }
+    .banner-content > h2{
+        font-size: 40px;
+    }
+    
+}
+
