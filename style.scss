@@ -1,6 +1,13 @@
+
 $primary: #ca540b;
 
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.logo-empresa{
+    border-radius: 2px;
+}
 
 .section{
     padding: 60px 0;
@@ -11,7 +18,7 @@ $primary: #ca540b;
     border-radius: 2px;
 }
 .banner{
-        background:url(./img/fondo-anaranjado3.jpg) no-repeat;
+        background:url(./img/fondoanaranjado3-1.jpg) no-repeat;
         background-size: cover;
 
 }
@@ -25,10 +32,23 @@ $primary: #ca540b;
     font-weight: normal;
     margin-bottom: 2rem;
 }
+.logo-empresa{
+    
+    border-radius: 2px;
+}
+.h2{
+    background: url(./img/fondoanaranjado3-1.jpg) no-repeat;
+}
+
+
+/*
 @include media-breakpoint-only(xs){
     .banner-content > h1{
         font-size: 60px;
         line-height: 60px;
+    }
+    .banner-content > h2{
+        font-size: 35px;
     }
 }
 @include media-breakpoint-only(sm){
@@ -61,7 +81,7 @@ $primary: #ca540b;
 label{
     color: #ca540b;
 }
-h3{
-    text-decoration: underline;
-}
+h
+    
+
 

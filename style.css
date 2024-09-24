@@ -11965,6 +11965,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.logo-empresa {
+  border-radius: 2px;
+}
+
 .section {
   padding: 60px 0;
 }
@@ -11996,6 +12000,9 @@ textarea.form-control-lg {
     font-size: 60px;
     line-height: 60px;
   }
+  .banner-content > h2, .banner-content > .h2 {
+    font-size: 35px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .banner-content > h1, .banner-content > .h1 {
@@ -12023,8 +12030,4 @@ textarea.form-control-lg {
 }
 label {
   color: #ca540b;
-}
-
-h3, .h3 {
-  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
