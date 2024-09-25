@@ -150,23 +150,25 @@
 
     <section>
         <div class="container mt-5">
-            <div class="mb-3">
-                <label for="nombrelinput" class="form-label">Nombre completo</label>
-                <input type="text" class="form-control" id="nombrelinput" placeholder="Escribe tu nombre">
-            </div>
-            <div class="mb-3">
-                <label for="emailinput" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu email">
-            </div>
-            <div class="mb-3">
-                <label for="telefonoinput" class="form-label">Telefono</label>
-                <input type="text" class="form-control" id="telefonoinput" placeholder="Numero telefonico">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="textareainput" rows="3"></textarea>
-            </div>  
-            <button clas="btn btn-primary align-items-center " style="color: black" type="submit">Enviar</button>
+            <form action="https://formsubmit.co/embutidospiazzoni@gmail.com" method="POST">
+               <div class="mb-3">
+                   <label for="nombreinput" class="form-label">Nombre completo</label>
+                   <input type="text" class="form-control"  name="nombreinput" placeholder="Escribe tu nombre">
+               </div>
+               <div class="mb-3">
+                   <label for="emailinput" class="form-label">Email</label>
+                   <input type="email" class="form-control" name="emailinput" placeholder="Escribe tu email">
+               </div>
+               <div class="mb-3">
+                   <label for="telefonoinput" class="form-label">Telefono</label>
+                   <input type="text" class="form-control" name="telefonoinput" placeholder="Numero telefonico">
+               </div>
+               <div class="mb-3">
+                   <label for="textareainput" class="form-label">Mensaje</label>
+                   <textarea class="form-control" name="textareainput" rows="3"></textarea>
+               </div>  
+               <button clas="btn btn-primary align-items-center " type="submit">Enviar</button>
+            </form>
         </div>
     </section>
     <div class="container-fluyd">
